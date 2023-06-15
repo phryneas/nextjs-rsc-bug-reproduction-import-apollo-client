@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import { ApolloClient } from '@apollo/client'
+
+console.log(ApolloClient)
+
 export default function Home() {
   return (
     <main className={styles.main}>
